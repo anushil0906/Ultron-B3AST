@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:paddingLeft="10dp"
+    android:background="@drawable/brain"
+    tools:context=".BrainFuckActivity">
+
+    <Button
+        android:id="@+id/bf_show"
+        android:layout_width="348dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="96dp"
+        android:onClick="BrainFuck_click"
+        android:text="fuck"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bf_id" />
+
+    <TextView
+        android:id="@+id/bf_text"
+        android:layout_width="0dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="40dp"
+        android:text="              Br41n_Fuck"
+        android:textColor="#131313"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/bf_id"
+        android:layout_width="364dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/rounded_edittext"
+        android:ems="10"
+        android:hint=" CIPHER"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bf_text" />
+
+    <EditText
+        android:id="@+id/bf_flag"
+        android:layout_width="367dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/rounded_edittext"
+
+        android:ems="10"
+        android:hint="   flag"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bf_show" />
+</androidx.constraintlayout.widget.ConstraintLayout>

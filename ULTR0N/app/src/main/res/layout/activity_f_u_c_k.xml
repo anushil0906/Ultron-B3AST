@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fuck2"
+    tools:context=".FUCKActivity">
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:onClick="BrainFuck"
+        android:text="brainfuck"
+        app:backgroundTint="#000000"
+        app:cornerRadius="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.653"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:onClick="ReverseFuck"
+        android:text="reversefuck"
+        app:backgroundTint="#000000"
+        app:cornerRadius="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.653"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button9" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:onClick="BinaryFuck"
+        android:text="binaryfuck"
+        app:backgroundTint="#000000"
+        app:cornerRadius="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.653"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button10" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:onClick="PiKaLang"
+        android:text="pikalang"
+        app:backgroundTint="#000000"
+        app:cornerRadius="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.653"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button11" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:onClick="OOk"
+        android:text="ook!"
+        app:backgroundTint="#000000"
+        app:cornerRadius="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.653"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button12" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="0dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="32dp"
+        android:text="                      ESOLANG"
+        android:textColor="#121212"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:onClick="AlpHuck"
+        android:text="alphuck"
+        app:backgroundTint="#020202"
+        app:cornerRadius="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.653"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button13" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:onClick="DeadFish"
+        android:text="deadfish"
+        app:backgroundTint="#000000"
+        app:cornerRadius="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.653"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button14" />
+</androidx.constraintlayout.widget.ConstraintLayout>

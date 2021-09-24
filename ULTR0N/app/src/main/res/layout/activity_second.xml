@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nighty"><![CDATA[
+
+tools:context=".SecondActivity">
+
+
+
+
+
+
+
+
+
+
+    ]]>
+
+    <TextView
+        android:id="@+id/texty"
+        android:layout_width="0dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="44dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:includeFontPadding="true"
+        android:textColor="#E42E2E"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="406dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="104dp"
+        android:text="             Wh4t_br1ngs_y0u_h3r3"
+        android:textColor="#4CAF50"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="0dp"
+        android:layout_height="54dp"
+        android:includeFontPadding="false"
+        android:text="                   W3lcom3 "
+        android:textColor="#4CAF50"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/texty"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.03" />
+
+    <ScrollView
+        android:layout_width="332dp"
+        android:layout_height="393dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texty">
+
+        <androidx.gridlayout.widget.GridLayout
+            android:layout_width="333dp"
+            android:layout_height="409dp"
+            app:columnCount="1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/texty">
+
+            <Button
+                android:id="@+id/rsa_button"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+
+                android:onClick="type_of_rsa"
+                android:text="RSA"
+                android:textColor="#4CAF50"
+                android:textStyle="bold"
+                android:visibility="invisible"
+                app:backgroundTint="#000000"
+                app:cornerRadius="150dp" />
+
+            <Button
+                android:id="@+id/bases_button"
+                android:layout_width="333dp"
+                android:layout_height="65dp"
+                android:layout_marginTop="48dp"
+                android:onClick="type_of_bases"
+                android:text="BASES"
+                android:textColor="#4CAF50"
+                android:textStyle="bold"
+                android:visibility="invisible"
+                app:backgroundTint="#000000"
+                app:cornerRadius="150dp" />
+
+            <Button
+                android:id="@+id/rot_button"
+                android:layout_width="333dp"
+                android:layout_height="65dp"
+                android:layout_marginTop="48dp"
+                android:onClick="type_of_rot"
+                android:text="ROT"
+                android:textColor="#4CAF50"
+                android:textStyle="bold"
+                android:visibility="invisible"
+                app:backgroundTint="#000000"
+                app:cornerRadius="150dp" />
+
+            <Button
+                android:id="@+id/fuck_button"
+                android:layout_width="333dp"
+                android:layout_height="65dp"
+                android:layout_marginTop="48dp"
+                android:onClick="type_of_fuck"
+                android:text="FUCK"
+                android:textColor="#4CAF50"
+                android:textStyle="bold"
+                android:visibility="invisible"
+                app:backgroundTint="#000000"
+                app:cornerRadius="150dp" />
+
+            <Button
+                android:id="@+id/xor_button"
+                android:layout_width="333dp"
+                android:layout_height="65dp"
+                android:layout_marginTop="48dp"
+                android:onClick="type_of_xor"
+                android:text="xor"
+                android:textColor="#4CAF50"
+                android:textStyle="bold"
+                android:visibility="invisible"
+                app:backgroundTint="#000000"
+                app:cornerRadius="150dp" />
+
+            <Button
+                android:id="@+id/no_button"
+                android:layout_width="333dp"
+                android:layout_height="65dp"
+                android:layout_marginTop="48dp"
+                android:onClick="type_of_number"
+                android:text="number system"
+                android:textColor="#4CAF50"
+                android:textStyle="bold"
+                android:visibility="invisible"
+                app:backgroundTint="#000000"
+                app:cornerRadius="150dp" />
+
+            <Button
+                android:id="@+id/dna_button"
+                android:layout_width="333dp"
+                android:layout_height="65dp"
+                android:layout_marginTop="48dp"
+                android:text="dna"
+                android:textColor="#4CAF50"
+                android:textStyle="bold"
+                android:visibility="invisible"
+                app:backgroundTint="#000000"
+                app:cornerRadius="150dp" />
+
+            <Button
+                android:id="@+id/morse_button"
+                android:layout_width="333dp"
+                android:layout_height="65dp"
+                android:layout_marginTop="48dp"
+                android:onClick="type_of_morse"
+                android:text="morse"
+                android:textColor="#4CAF50"
+                android:textStyle="bold"
+                android:visibility="invisible"
+                app:backgroundTint="#000000"
+                app:cornerRadius="150dp" />
+
+            <Button
+                android:id="@+id/vigenere_button"
+                android:layout_width="333dp"
+                android:layout_height="65dp"
+                android:layout_marginTop="48dp"
+                android:text="vigenere"
+                android:textColor="#4CAF50"
+                android:textStyle="bold"
+                android:visibility="invisible"
+                app:backgroundTint="#000000"
+                app:cornerRadius="150dp" />
+
+            <Button
+                android:id="@+id/bacon_button"
+                android:layout_width="333dp"
+                android:layout_height="65dp"
+                android:layout_marginTop="48dp"
+                android:text="bacon"
+                android:textColor="#4CAF50"
+                android:textStyle="bold"
+                android:visibility="invisible"
+                app:backgroundTint="#000000"
+                app:cornerRadius="150dp" />
+
+            <Button
+                android:id="@+id/memes"
+                android:layout_width="333dp"
+                android:layout_height="65dp"
+                android:layout_marginTop="48dp"
+                android:onClick="meme"
+                android:text="memes_navigation"
+                android:textColor="#4CAF50"
+                android:textStyle="bold"
+                android:visibility="invisible"
+                app:backgroundTint="#000000"
+                app:cornerRadius="150dp" />
+
+        </androidx.gridlayout.widget.GridLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

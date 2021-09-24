@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ultr0n">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="B3AST"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KALKI"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".DecimalActivity"/>
+        <activity android:name=".OctalActivity" />
+        <activity android:name=".HexActivity" />
+        <activity android:name=".BinaryActivity" />
+        <activity android:name=".NOActivity" />
+        <activity android:name=".MORSEActivity" />
+        <activity android:name=".DeadFishActivity" />
+        <activity android:name=".AlpHuckActivity" />
+        <activity android:name=".OOkActivity" />
+        <activity android:name=".PikaLangActivity" />
+        <activity android:name=".BinaryFuckActivity" />
+        <activity android:name=".ReverseFuckActivity" />
+        <activity android:name=".BrainFuckActivity" />
+        <activity android:name=".FUCKActivity" />
+        <activity android:name=".RSACRTActivity" />
+        <activity android:name=".XORActivity" />
+        <activity android:name=".ROT47Activity" />
+        <activity android:name=".ROTALLActivity" />
+        <activity android:name=".ROTActivity" />
+        <activity android:name=".Base91Activity" />
+        <activity android:name=".Base85Activity" />
+        <activity android:name=".Base62Activity" />
+        <activity android:name=".Base58Activity" />
+        <activity android:name=".Base32Activity" />
+        <activity android:name=".Base64Activity" />
+        <activity android:name=".BASEActivity" />
+        <activity android:name=".RSACommonModuloActivity" />
+        <activity android:name=".RSACubeRootActivity" />
+        <activity android:name=".RSAClassicActivity" />
+        <activity android:name=".RSAActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".StartActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

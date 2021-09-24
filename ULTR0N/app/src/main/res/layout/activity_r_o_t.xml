@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rot"
+    tools:context=".ROTActivity">
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="333dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="112dp"
+        android:onClick="R0t"
+        android:text="R0T"
+        android:textSize="18sp"
+        app:backgroundTint="#000000"
+        app:cornerRadius="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="333dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="116dp"
+        android:onClick="R0t47"
+        android:text="R0t 47"
+        android:textSize="18sp"
+        app:backgroundTint="#000000"
+        app:cornerRadius="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.615"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button6" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="0dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="40dp"
+        android:text="                     R0T"
+        android:textColor="#0C0C0C"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

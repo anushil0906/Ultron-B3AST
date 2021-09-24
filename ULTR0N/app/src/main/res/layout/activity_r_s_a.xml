@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/night"
+    tools:context=".RSAActivity">
+
+    <Button
+        android:id="@+id/rsa1"
+        android:layout_width="333dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="120dp"
+        android:onClick="classic_attack"
+        android:text="Classic Attack"
+        android:textColor="#F8F0F0"
+        android:textSize="14sp"
+        app:backgroundTint="#000000"
+        app:cornerRadius="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/rsa2"
+        android:layout_width="333dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="36dp"
+        android:onClick="cube_root_attack"
+        android:text="Cube Root Attack"
+        app:backgroundTint="#000000"
+        app:cornerRadius="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rsa1" />
+
+    <Button
+        android:id="@+id/rsa3"
+        android:layout_width="333dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="36dp"
+        android:onClick="common_modulo_attack"
+        android:text="Common Modulo Attack"
+        app:backgroundTint="#000000"
+        app:cornerRadius="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rsa2" />
+
+    <Button
+        android:id="@+id/rsa4"
+        android:layout_width="333dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="36dp"
+        android:onClick="chinese_remainder_attack"
+        android:text="Chinese Remainder Attack"
+        app:backgroundTint="#000000"
+        app:cornerRadius="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rsa3" />
+
+    <Button
+        android:id="@+id/rsa5"
+        android:layout_width="333dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="36dp"
+        app:backgroundTint="#000000"
+        app:cornerRadius="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rsa4" />
+
+    <Button
+        android:id="@+id/rsa6"
+        android:layout_width="333dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="36dp"
+        android:text="Button"
+        app:backgroundTint="#000000"
+        app:cornerRadius="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rsa5" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="410dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="28dp"
+        android:text="                       RSA"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
